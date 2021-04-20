@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    margin: 15px;
+}
+
+.header__icon  {
+    object-fit: contain;
+    height: 30px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: fit-content;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.header__center > input {
+    border: none;
+    padding: 10px;
+    /* gets rid of outline in search box when clicked and is a boolean **either on or off */
+    outline-width: 0;
+    /* width: 250px; */
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 30px;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.header__right > p {
+    font-size: 16px;
+    font-weight: 500;
+}
