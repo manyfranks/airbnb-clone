@@ -26,10 +26,16 @@ function Header() {
 
             {/* rightmost div with 4 children */}
             <div className="header__right">
-                <p>Become a host</p>
-                <LanguageIcon />
-                <ExpandMoreIcon />
-                <Avatar />
+                <div className="header__host">
+                    <p>Become a host</p>
+                </div>
+                <div className="header__globe">
+                    <LanguageIcon />
+                </div>
+                <div className="header__user">
+                    <ExpandMoreIcon />
+                    <Avatar />
+                </div>
             </div>            
         </div>
     )

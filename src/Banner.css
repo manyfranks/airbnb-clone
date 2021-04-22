@@ -1,7 +1,8 @@
 .banner {
-    background: url('./assets/images/banner-1.jpg') center, center;
+    background: url('./assets/images/banner-1.jpg') center center;
     background-size: cover;
-    height: 50vh;
+    object-fit: cover;
+    min-height: 50vh;
     position: relative;
 }
 
@@ -12,7 +13,7 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 40px;
-    width: 300px;
+    width: 30%;
 }
 
 .banner__search {
@@ -44,4 +45,6 @@
 
 .banner__info > h5 {
     margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
 }

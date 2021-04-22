@@ -1,6 +1,7 @@
 .home__heading {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 50px;
+    padding-top: 20px;
 }
 
 .home__heading > h1 {
